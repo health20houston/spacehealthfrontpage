@@ -42,13 +42,13 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 5;
-  -webkit-animation: rotation 1000s infinite linear;
+  -webkit-animation: rotation 500s infinite linear;
   -moz-animation-name: rotation;
-  -moz-animation-duration: 1000s;
+  -moz-animation-duration: 500s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   animation-name: rotation;
-  animation-duration: 1000s;
+  animation-duration: 500s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
