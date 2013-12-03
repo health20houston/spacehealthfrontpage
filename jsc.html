@@ -62,7 +62,6 @@
             
         </script>
         
-        
         <header id="masthead" class="site-header" role="banner">
             <div class="header-inner">
                 <hgroup>
@@ -108,7 +107,7 @@
             </div>   
         </header><!-- #masthead -->
         <div class="pane no-padding">
-            <div class="pane-inner centered" id="astronaut">
+            <div data-stellar-background-ratio="1.2" class="pane-inner centered" id="astronaut">
                 <!-- <img src="./jsc_files/astro_upclose.png"> -->
             </div>
         </div>
@@ -153,11 +152,12 @@
             </div>
         </div>
         
+        <!-- test parallax object
+<div data-stellar-ratio="1.7"><img src="./jsc_files/spacehealthinnovation.png"></div>
+-->
         
+        <div class="stars_overlay" data-stellar-background-ratio="1.1"></div>
         
-        <div class="stars_overlay" data-speed="4" data-offset_y="0" data-offset_x="25%" style="background-position: 25% -8px;"></div>
-        <!-- <div class="stars_overlay" data-speed="10" data-offset_y="200" data-offset_x="5%" style="background-position: 5% 196.8px;"></div> -->
-        <div class="stars_rotate"></div>
         
         <footer id="colophon" role="contentinfo">
             <div id="footer-inner">
@@ -177,14 +177,18 @@
                 </div><!-- .site-info -->
             </div><!-- #footer-inner -->
         </footer><!-- #colophon -->
-        <script async="" src="./jsc_files/analytics.js"></script><script type="text/javascript" src="./jsc_files/jquery.js"></script>
-        <script type="text/javascript" src="./jsc_files/jquery-migrate.min.js"></script>
-        <script type="text/javascript" src="./jsc_files/comment-reply.min.js"></script>
-        <script type="text/javascript" src="./jsc_files/navigation.js"></script>
-        <script src="js/vendor/jquery.stellar.js"></script>
+        
         <script type="text/javascript">
             var queries = window.location.search.split('?'),discount_string = '';if(queries.length > 1){queries[1].split('&amp;').join('&#038;').split('&#038;');for(var i=0;i< queries.length;i++){if(queries[i].search('discount') === 0){discount_string = queries[i];}};}if(discount_string){var ticket_src=jQuery('.tickets').attr('src');jQuery('iframe').attr('src', ticket_src + '&amp;' + discount_string).load();}
         </script>
+        
+        <script async="" src="./jsc_files/analytics.js"></script>
+        <script type="text/javascript" src="./jsc_files/jquery.js"></script>
+        <script type="text/javascript" src="./jsc_files/jquery-migrate.min.js"></script>
+        <script type="text/javascript" src="./jsc_files/comment-reply.min.js"></script>
+        <script type="text/javascript" src="./jsc_files/navigation.js"></script>
+        <script type="text/javascript" src="./jsc_files/jquery.stellar.js"></script>
+        <script type="text/javascript" src="./jsc_files/custom.js"></script>
         
         
         <!-- 43 queries. 0.418 seconds. -->
