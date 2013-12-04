@@ -62,14 +62,6 @@ body .site {
     box-shadow: 0 0 0;
 }*/
 
-p {
-    line-height: 1.71429;
-    margin-bottom: 1.71429rem;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-
 hgroup {
 	display:inline-block;
 	width:120px;
@@ -99,11 +91,8 @@ header{
   margin-bottom: 10rem;
 }
 #astronaut{
-  width: 100%;
-  min-height: 600px;
   margin-bottom: -8em;
   margin-top: -4em;
-  background: url(astro_upclose.png) no-repeat center center;
   color: #fff;
 }
 #astronaut h1{
@@ -139,21 +128,12 @@ header{
 }
 
 .pane h1{
-  font-size: 3rem;
-  line-height: 1.25em;
-  font-weight: 200;
   margin: 1em 0;
 }
 .pane h2{
-  font-size: 2.5rem;
-  line-height: 1.25em;
-  font-weight: 200;
   margin: 1em 0;
 }
 .pane h3{
-  font-size: 2rem;
-  line-height: 1.25em;
-  font-weight: 200;
   margin: 1em 0;
 }
 .centered{
@@ -1550,4 +1530,18 @@ blockquote p {
 	margin-right: 1rem;
 	display: inline-block;
 	text-align: right;
+}
+
+.dropdown-menu {
+background-color: transparent;
+border-color: transparent;
+}
+
+.navbar-default {
+background-color: transparent;
+border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+ color:#fff;   
 }
