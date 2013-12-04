@@ -11,7 +11,7 @@ Tags: awesomeness
 */
 
 
-@import url("twentytwelve/style.css");
+/*@import url("twentytwelve/style.css");*/
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}
     to   {-webkit-transform: rotate(359deg);}
@@ -204,6 +204,7 @@ article:only-of-type {
 	border-bottom-style: solid;	
 	border-color: #ccc;
     text-shadow: 0 0 10px #fff;
+    background-color:rgba(10,10,10,0.5);
 }
 
 .main-navigation ul li:hover {
