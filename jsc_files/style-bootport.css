@@ -79,8 +79,6 @@ footer {
 	margin-top: -100px;
 	position: relative;
 	z-index: 20;
-	display: block;
-	width: 100%;
 }
 
 footer p {
