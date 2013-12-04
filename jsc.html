@@ -8,6 +8,9 @@
     <link rel="pingback" href="http://missiontomarshealth.com/xmlrpc.php">
     <link href="./jsc_files/css" rel="stylesheet" type="text/css">
     <link href="./jsc_files/css(1)" rel="stylesheet" type="text/css">
+    <link href="./jsc_files/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./jsc_files/jcountdown/jcountdown.css" rel="stylesheet" type="text/css">
+    
     <!--[if lt IE 9]>
 <script src="http://missiontomarshealth.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
 <![endif]-->
@@ -114,6 +117,7 @@
         
         <div class="pane solid-white">
             <div class="pane-inner">
+                <div id="DIV_TO_PLACE_COUNTDOWN"></div>
                 <h1 class="centered">Collaborate with astronauts to tackle space travel's most intriguing health problems.</h1>
                 <h2 class="centered">Join us on February 7th - 9th and dive in with experienced engineers, programmers, designers and scientists.</h2>
                 
@@ -188,7 +192,30 @@
         <script type="text/javascript" src="./jsc_files/comment-reply.min.js"></script>
         <script type="text/javascript" src="./jsc_files/navigation.js"></script>
         <script type="text/javascript" src="./jsc_files/jquery.stellar.js"></script>
+        <script src="./jsc_files/jcountdown/jquery.jcountdown.min.js"></script>
         <script type="text/javascript" src="./jsc_files/custom.js"></script>
+        <script>
+	jQuery(document).ready(function(){
+		jQuery("#DIV_TO_PLACE_COUNTDOWN").jCountdown({
+			timeText:"2013/12/04 00:00:00",
+			timeZone:-6,
+			style:"flip",
+			color:"black",
+			width:0,
+			textGroupSpace:15,
+			textSpace:0,
+			reflection:false,
+			reflectionOpacity:10,
+			reflectionBlur:0,
+			dayTextNumber:4,
+			displayDay:true,
+			displayHour:true,
+			displayMinute:true,
+			displaySecond:true,
+			displayLabel:true,
+		});
+	});
+</script>
         
         
         <!-- 43 queries. 0.418 seconds. -->
