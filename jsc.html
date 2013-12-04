@@ -125,6 +125,8 @@
         </div>
     </div>
     
+    <div class="centered margin-bottom"id="DIV_TO_PLACE_COUNTDOWN"></div>
+        
     <div class="pane solid-white">
         <div class="pane-inner">
             <div class="centered"id="DIV_TO_PLACE_COUNTDOWN"></div>
@@ -195,21 +197,19 @@
     <script type="text/javascript">
         var queries = window.location.search.split('?'),discount_string = '';if(queries.length > 1){queries[1].split('&amp;').join('&#038;').split('&#038;');for(var i=0;i< queries.length;i++){if(queries[i].search('discount') === 0){discount_string = queries[i];}};}if(discount_string){var ticket_src=jQuery('.tickets').attr('src');jQuery('iframe').attr('src', ticket_src + '&amp;' + discount_string).load();}
     </script>
-    
     <script async="" src="./jsc_files/analytics.js"></script>
     <script type="text/javascript" src="./jsc_files/jquery.js"></script>
     <script type="text/javascript" src="./jsc_files/jquery-migrate.min.js"></script>
     <script type="text/javascript" src="./jsc_files/comment-reply.min.js"></script>
     <script type="text/javascript" src="./jsc_files/navigation.js"></script>
     <script type="text/javascript" src="./jsc_files/jquery.stellar.js"></script>
-    <script src="./jsc_files/jcountdown/jquery.jcountdown.min.js"></script>
+    <script type="text/javascript" src="./jsc_files/jcountdown/jquery.jcountdown.min.js"></script>
     <script type="text/javascript" src="./jsc_files/custom.js"></script>
-        
     <script type="text/javascript" src="./jsc_files/bootstrap.min.js"></script>
     <script>
         jQuery(document).ready(function(){
             jQuery("#DIV_TO_PLACE_COUNTDOWN").jCountdown({
-                timeText:"2013/12/04 00:00:00",
+                timeText:"2014/02/07 18:00:00",
                 timeZone:-6,
                 style:"flip",
                 color:"black",
@@ -219,7 +219,7 @@
                 reflection:false,
                 reflectionOpacity:10,
                 reflectionBlur:0,
-                dayTextNumber:4,
+                dayTextNumber:2,
                 displayDay:true,
                 displayHour:true,
                 displayMinute:true,
