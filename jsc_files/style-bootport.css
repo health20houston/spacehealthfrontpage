@@ -1,0 +1,293 @@
+body {
+	background: url(stars_repeating.jpg) center center #000033 fixed;
+}
+
+.stars_overlay {
+  background: url(http://missiontomarshealth.com/wp-content/uploads/2013/08/stars_transparent.png) transparent;
+  width: 100%;
+  height: 100%;
+    position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+body {
+    font-family: 'Open Sans', Arial,sans-serif;
+}
+#site-navigation{
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+  font-weight: 100;
+  text-shadow: 0 0 10px #fff;
+}
+#space_navmenu{
+  margin-top: 3em;
+}
+
+
+
+.solid-white{
+  background: rgba(255, 255, 255, 1);
+  color: #333;
+}
+.margin-top{
+  margin-top: 10rem;
+}
+.margin-bottom{
+  margin-bottom: 10rem;
+}
+#astronaut{
+  margin: -4em auto -8em auto;
+  color: #fff;
+}
+/*#astronaut h1{
+  margin-top: 20rem;
+}
+*/
+.pane{
+  position: relative;
+  min-height: 26px;
+  z-index: 8;
+  padding: 4rem 40px;
+  padding: 4rem 2.857142857rem;
+}
+.pane.no-padding{
+  padding: 0;
+}
+.pane-inner{
+  margin: 0 auto;
+  max-width: 1020px;
+  max-width: 72.8571428571rem;
+  overflow: hidden;
+}
+
+.pane h1{
+  margin: 1em 0;
+}
+.pane h2{
+  margin: 1em 0;
+}
+.pane h3{
+  margin: 1em 0;
+}
+.centered{
+  text-align: center;
+}
+
+footer {
+	overflow:hidden;
+}
+
+#footer-inner{
+	max-width: 1020px;
+	max-width: 72.8571428571rem;
+	margin: 150px auto 0 auto;
+}
+
+footer[role="contentinfo"] {
+
+	/*border-top-style: 1px solid;
+	border-color: #ccc;*/
+
+	background: url(http://missiontomarshealth.com/wp-content/uploads/2013/08/mars_footer.png) center top no-repeat;
+	padding-bottom: 50px;
+	margin-top: -100px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	width: 100%;
+}
+
+footer p {
+    	line-height: 1.5;
+    	margin-bottom: 0;
+	color: #cecece;
+}
+
+footer[role="contentinfo"] a {
+	color: #cecece;
+}
+
+footer[role="contentinfo"] a:hover {
+	color: #d74418;
+}
+
+.site-content article {
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: #ccc;	
+}
+
+a {
+	color: #d74418;    
+}
+a:hover {
+	color: #6a1f0c; 
+}
+.footercircle {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* BEGIN Social -- NOTE FONT DIRECTIVES MAY NOT MATCH NEW STYLE */
+#social-networking {
+    /*float: right;*/
+	overflow:hidden;
+	width: 500px;
+	margin-top: 2px;
+	margin-right: 7.6%;	
+}
+
+a.social-link, #social_share  a.social-link {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0; /* 0 5px 0 0;*/
+    overflow: hidden;
+    width: 32px;
+    height: 32px;	
+}
+
+a.ico-mailinglist { background: url("images/ico-mailinglist-connect.png") no-repeat scroll left top transparent;}
+a.ico-facebook, #social_share .ico-facebook { background: url("http://missiontomarshealth.com/wp-content/uploads/2013/08/ico-facebook-connect.png") no-repeat scroll left top transparent; }
+a.ico-flickr, #social_share .ico-flickr { background: url("images/ico-flickr-connect.png") no-repeat scroll left top transparent; }
+a.ico-googlecommunity, #social_share .ico-googlecommunity { background: url("images/ico-googlecommunity-connect.png") no-repeat scroll left top transparent; }
+a.ico-googleplus, #social_share .ico-googleplus { background: url("images/ico-googleplus-connect.png") no-repeat scroll left top transparent; }
+a.ico-instagram, #social_share .ico-instagram { background: url("images/ico-instagram-connect.png") no-repeat scroll left top transparent; }
+a.ico-linkedin, #social_share .ico-linkedin { background: url("images/ico-linkedin-connect.png") no-repeat scroll left top transparent; }
+a.ico-rss, #social_share .ico-rss { background: url("images/ico-rss-connect.png") no-repeat scroll left top transparent; }
+a.ico-twitter, #social_share .ico-twitter  { background: url("http://missiontomarshealth.com/wp-content/uploads/2013/08/ico-twitter-connect.png") no-repeat scroll left top transparent; }
+a.ico-vimeo, #social_share .ico-vimeo  { background: url("images/ico-vimeo-connect.png") no-repeat scroll left top transparent; }
+a.ico-youtube, #social_share .ico-youtube  { background: url("images/ico-youtube-connect.png") no-repeat scroll left top transparent; }
+
+a.ico-mailinglist:hover { background: url(images/ico-mailinglist-hover-connect.png) no-repeat top left; }
+a.ico-facebook:hover, #social_share a.ico-facebook:hover { background: url(http://missiontomarshealth.com/wp-content/uploads/2013/08/ico-facebook-hover-connect.png) no-repeat top left; }
+a.ico-flickr:hover, #social_share .ico-flickr:hover { background: url("images/ico-flickr-hover-connect.png") no-repeat scroll left top transparent; }
+a.ico-googlecommunity:hover, #social_share .ico-googlecommunity:hover { background: url("images/ico-googlecommunity-hover-connect.png") no-repeat scroll left top transparent; }
+a.ico-googleplus:hover, #social_share .ico-googleplus:hover { background: url("images/ico-googleplus-hover-connect.png") no-repeat scroll left top transparent; }
+a.ico-instagram:hover, #social_share .ico-instagram:hover { background: url("images/ico-instagram-hover-connect.png") no-repeat scroll left top transparent; }
+a.ico-linkedin:hover, #social_share .ico-linkedin:hover { background: url("images/ico-linkedin-hover-connect.png") no-repeat scroll left top transparent; }
+a.ico-rss:hover, #social_share .ico-rss:hover { background: url("images/ico-rss-hover-connect.png") no-repeat scroll left top transparent; }
+a.ico-twitter:hover, #social_share a.ico-twitter:hover  { background: url(http://missiontomarshealth.com/wp-content/uploads/2013/08/ico-twitter-hover-connect.png) no-repeat top left; }
+a.ico-vimeo:hover, #social_share a.ico-vimeo:hover  { background: url(images/ico-vimeo-hover-connect.png) no-repeat top left; }
+a.ico-youtube:hover, #social_share a.ico-youtube:hover  { background: url(images/ico-youtube-hover-connect.png) no-repeat top left; }
+
+
+/* BEGIN More Social for profile pages -- NOTE IMAGES MAY NOT EXIST */
+#moresocial {
+	overflow: hidden;
+	margin-top: 7px;
+}
+
+#moresocial  a.social-link {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;	
+}
+
+#moresocial .ico-website  {
+    background: url("images/ico-website-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-website:hover { 
+	background: url(images/ico-website-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-blog  {
+    background: url("images/ico-rss-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-blog:hover { 
+	background: url(images/ico-rss-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-twitter  {
+    background: url("images/ico-twitter-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-twitter:hover { 
+	background: url(images/ico-twitter-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-facebook  {
+    background: url("images/ico-facebook-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-facebook:hover { 
+	background: url(images/ico-facebook-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-google  {
+    background: url("images/ico-googleplus-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-google:hover { 
+	background: url(images/ico-googleplus-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-youtube  {
+    background: url("images/ico-youtube-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-youtube:hover { 
+	background: url(images/ico-youtube-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-quora  {
+    background: url("images/ico-quora-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-quora:hover { 
+	background: url(images/ico-quora-hover-connect.png) no-repeat top left; 
+}
+#moresocial .ico-linkedin  {
+    background: url("images/ico-linkedin-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial a.ico-linkedin:hover { 
+	background: url(images/ico-linkedin-hover-connect.png) no-repeat top left; 
+}
+
+#moresocial24 {
+	overflow: hidden;
+	margin-top: 7px;
+}
+
+#moresocial24  a.social-link {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;	
+}
+
+#moresocial24 .ico-twitter  {
+    background: url("images/ico-24-twitter-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial24 a.ico-twitter:hover { 
+	background: url(images/ico-24-twitter-hover-connect.png) no-repeat top left; 
+}
+#moresocial24 .ico-facebook  {
+    background: url("images/ico-24-facebook-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial24 a.ico-facebook:hover { 
+	background: url(images/ico-24-facebook-hover-connect.png) no-repeat top left; 
+}
+#moresocial24 .ico-google  {
+    background: url("images/ico-24-googleplus-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial24 a.ico-google:hover { 
+	background: url(images/ico-24-googleplus-hover-connect.png) no-repeat top left; 
+}
+#moresocial24 .ico-quora  {
+    background: url("images/ico-24-quora-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial24 a.ico-quora:hover { 
+	background: url(images/ico-24-quora-hover-connect.png) no-repeat top left; 
+}
+#moresocial24 .ico-linkedin  {
+    background: url("images/ico-24-linkedin-connect.png") no-repeat scroll left top transparent;
+}
+#moresocial24 a.ico-linkedin:hover { 
+	background: url(images/ico-24-linkedin-hover-connect.png) no-repeat top left; 
+}
