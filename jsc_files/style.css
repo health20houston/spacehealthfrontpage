@@ -85,10 +85,10 @@ header{
   color: #333;
 }
 .margin-top{
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 .margin-bottom{
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 #astronaut{
   margin-bottom: -8em;
@@ -204,11 +204,11 @@ article:only-of-type {
 	border-bottom-style: solid;	
 	border-color: #ccc;
     text-shadow: 0 0 10px #fff;
-    background-color:rgba(10,10,10,0.5);
+    background-color:rgba(10,10,10,0.8);
 }
 
 .main-navigation ul li:hover {
-	background-color: #EFEFEF;
+	background-color:rgba(200,200,200,0.8);;
 }
 
 li.menu-item a {
