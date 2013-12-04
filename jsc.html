@@ -6,9 +6,10 @@
     <title>JSC Space Health Innovation Challenge | Mission To Mars</title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="http://missiontomarshealth.com/xmlrpc.php">
+    
+    <link href="./jsc_files/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="./jsc_files/css" rel="stylesheet" type="text/css">
     <link href="./jsc_files/css(1)" rel="stylesheet" type="text/css">
-    <link href="./jsc_files/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="./jsc_files/jcountdown/jcountdown.css" rel="stylesheet" type="text/css">
     
     <!--[if lt IE 9]>
@@ -109,15 +110,41 @@
                 </nav><!-- #site-navigation -->
             </div>   
         </header><!-- #masthead -->
+        
         <div class="pane no-padding">
             <div data-stellar-background-ratio="1.2" class="pane-inner centered" id="astronaut">
                 <!-- <img src="./jsc_files/astro_upclose.png"> -->
             </div>
         </div>
         
+        
+        
+        <!-- #content -->
+        
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="pane solid-white margin-bottom">
+        <div class="row">
+            <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        </div>
+        
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        </div>
+        
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+            <div class="col-xs-6">.col-xs-6</div>
+            <div class="col-xs-6">.col-xs-6</div>
+        </div>
+        </div>
+        
         <div class="pane solid-white">
             <div class="pane-inner">
-                <div id="DIV_TO_PLACE_COUNTDOWN"></div>
+                <div class="centered" id="DIV_TO_PLACE_COUNTDOWN"></div>
                 <h1 class="centered">Collaborate with astronauts to tackle space travel's most intriguing health problems.</h1>
                 <h2 class="centered">Join us on February 7th - 9th and dive in with experienced engineers, programmers, designers and scientists.</h2>
                 
@@ -195,27 +222,27 @@
         <script src="./jsc_files/jcountdown/jquery.jcountdown.min.js"></script>
         <script type="text/javascript" src="./jsc_files/custom.js"></script>
         <script>
-	jQuery(document).ready(function(){
-		jQuery("#DIV_TO_PLACE_COUNTDOWN").jCountdown({
-			timeText:"2013/12/04 00:00:00",
-			timeZone:-6,
-			style:"flip",
-			color:"black",
-			width:0,
-			textGroupSpace:15,
-			textSpace:0,
-			reflection:false,
-			reflectionOpacity:10,
-			reflectionBlur:0,
-			dayTextNumber:4,
-			displayDay:true,
-			displayHour:true,
-			displayMinute:true,
-			displaySecond:true,
-			displayLabel:true,
-		});
-	});
-</script>
+            jQuery(document).ready(function(){
+                jQuery("#DIV_TO_PLACE_COUNTDOWN").jCountdown({
+                    timeText:"2013/12/04 00:00:00",
+                    timeZone:-6,
+                    style:"flip",
+                    color:"black",
+                    width:0,
+                    textGroupSpace:15,
+                    textSpace:0,
+                    reflection:false,
+                    reflectionOpacity:10,
+                    reflectionBlur:0,
+                    dayTextNumber:4,
+                    displayDay:true,
+                    displayHour:true,
+                    displayMinute:true,
+                    displaySecond:true,
+                    displayLabel:true,
+                });
+            });
+        </script>
         
         
         <!-- 43 queries. 0.418 seconds. -->
