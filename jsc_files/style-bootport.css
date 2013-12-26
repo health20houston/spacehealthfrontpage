@@ -362,3 +362,33 @@ a.ico-youtube:hover, #social_share a.ico-youtube:hover  { background: url(images
 #moresocial24 a.ico-linkedin:hover { 
 	background: url(images/ico-24-linkedin-hover-connect.png) no-repeat top left; 
 }
+
+.challenge-tagline{
+  font-size: 3.5em;
+}
+.highlight-color{
+  color : #d74418;
+}
+
+.tags{
+  color: #999;
+}
+.tag{
+  background: #ddd;
+  padding: 0 0.25em;
+  margin: 0 0.5em;
+  line-height: 1.5em;
+  border-radius: 2px;
+}
+.tag:hover{
+  color: #d74418;
+}
+.section{
+  margin: 3em 0;
+}
+.challenge h4{
+  line-height: 1.5em;
+}
+.challenge i{
+  padding-right: 0.25em;
+}
